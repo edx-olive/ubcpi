@@ -123,3 +123,67 @@ msgstr "מופיע למעלה"
 #: ubcpi.py
 msgid "Appears below"
 msgstr "מופיע למטה"
+
+#: ubcpi/static/html/ubcpi.html:161 ubcpi/static/html/ubcpi.html:25
+#: ubcpi/static/html/ubcpi.html:58
+msgid "Answer"
+msgstr "תשובה"
+
+#: ubcpi/static/html/ubcpi.html:163 ubcpi/static/html/ubcpi.html:27
+#: ubcpi/static/html/ubcpi.html:60
+msgid "Reflection"
+msgstr "שיקוף"
+
+#: ubcpi/static/html/ubcpi.html:165 ubcpi/static/html/ubcpi.html:29
+#: ubcpi/static/html/ubcpi.html:62
+msgid "Results"
+msgstr "תוצאות"
+
+#: ubcpi/static/html/ubcpi.html:12 ubcpi/static/html/ubcpi.html:148
+msgid "Question"
+msgstr "שאלה"
+
+#: ubcpi/static/html/ubcpi.html:9
+msgid "&nbsp;({{weight}} point possible)"
+msgstr "&nbsp;({{weight}} נקודה אפשרית)"
+
+#: ubcpi/static/html/ubcpi.html:10
+msgid "&nbsp;({{weight}} points possible)"
+msgstr "&nbsp;({{weight}} נקודות אפשריות)"
+
+#: ubcpi/static/html/ubcpi.html:71
+msgid ""
+"Step 1) Your Initial Answer <span class=\"inline-hint\">You can change this "
+"answer later, if you change your mind.</span>"
+msgstr ""
+"תשובתך הסופית (שלב 1 <span class=\"inline-hint\"> באפשרותכם לשנות את תשובתכם בהמשך, אם תשנו את דעתכם.</span>"
+
+#: ubcpi/static/html/ubcpi.html:93
+msgid "Explain to other students why you chose this answer (Required):"
+msgstr "הסבירו לתלמידים אחרים מדוע בחרתם בתשובה זו (חובה):"
+
+#: ubcpi/static/html/ubcpi.html:100
+msgid ""
+"In the next step, you will be shown a selection of other responses that may "
+"help you refine your answer."
+msgstr ""
+"בשלב הבא, יוצגו לכם מבחר תגובות אחרות שעשויות לסייע לכם לחדד את תשובתכם"
+
+#: ubcpi/static/html/ubcpi.html:113
+msgid ""
+"In order to move to the next step, please choose an answer and briefly "
+"explain your choice."
+msgstr ""
+"על מנת לעבור לשלב הבא, אנא בחרו תשובה והסבירו בקצרה את בחירתכם"
+
+#: ubcpi/static/html/ubcpi.html:108
+msgid "Note:"
+msgstr "הערה:"
+
+#: ubcpi/static/html/ubcpi.html:118
+msgid "View Question Statistics"
+msgstr "צפו בסטטיסטיקה של שאלות"
+
+#: ubcpi/static/html/ubcpi.html:133
+msgid "Next Step"
+msgstr "השלב הבא"
