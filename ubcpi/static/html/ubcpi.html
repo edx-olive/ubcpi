@@ -126,7 +126,7 @@
 
                 </fieldset>
 
-                <div class="ubcpi-staff-button-wrapper" data-ng-if="user_role == 'instructor' || user_role == 'staff'" data-ng-init="rc.getStats()">
+                <div class="ubcpi-staff-button-wrapper" data-ng-if="user_role == 'student' || user_role == 'instructor' || user_role == 'staff'" data-ng-init="rc.getStats()">
                     <a data-ng-model="collapse" data-ng-click="collapse=!collapse" data-ng-class="{true: 'ubcpi-staff-statistics-button--active', false: 'ubcpi-staff-statistics-button'}[collapse]" translate>View Question Statistics</a>
                     <div class="ubcpi-staff-statistics" data-ng-show="collapse">
 

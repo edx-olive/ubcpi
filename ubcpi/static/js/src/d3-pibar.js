@@ -15,9 +15,8 @@ d3.custom.barChart = function(scope, gettext) {
     var chartWidth  = 750;
     var chartHeight = 250;
     var minTotalFrequency = 10;
-
-    if(scope.role == 'instructor' || scope.role == 'staff'){ minTotalFrequency = 1}
-
+    
+    if(scope.role == 'instructor' || scope.role == 'staff' || scope.role == 'student'){ minTotalFrequency = 1}
     function chart(selection) {
         selection.each(function(data) {
             var totalFreq = d3.sum(data, function(d) { return d.frequency; });
@@ -170,8 +169,7 @@ d3.custom.perAnswerChart = function(scope, gettext, allAnswerCount) {
     var labelWidth = 150;
     var minTotalFrequency = 10;
 
-    if(scope.role == 'instructor' || scope.role == 'staff'){ minTotalFrequency = 1}
-
+    if(scope.role == 'instructor' || scope.role == 'staff' || scope.role == 'student'){ minTotalFrequency = 1}
     function chart(selection) {
         selection.each(function(data) {
             var totalFreq = allAnswerCount;
